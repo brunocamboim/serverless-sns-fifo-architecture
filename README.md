@@ -1,20 +1,19 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is a simple project to build a synchronized architecture to send messages in order.
+I'm using the following services:
+  - SNS
+  - SQS
+  - Lambda
+
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+First of all, clone the repository.
+
 1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+  - Open the terminal and enter your repository
+  - Run the command: npm install
+  - Within VS Code, run the debugger to test local
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+  - To build your application and deploy to AWS, you need to set some envs. See the docs: <a href="https://www.serverless.com/framework/docs/"> https://www.serverless.com/framework/docs/ </a>
+  - After that, run npm run deploy
