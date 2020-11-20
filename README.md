@@ -5,6 +5,8 @@ I'm using the following services:
   - SQS
   - Lambda
 
+# Architecture
+![alt text](https://github.com/brunocamboim/serverless-sns-fifo-architecture/blob/master/architecture.png?raw=true)
 
 # Getting Started
 First of all, clone the repository.
